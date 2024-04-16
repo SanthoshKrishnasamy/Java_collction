@@ -18,4 +18,6 @@ public interface Functional_interface {
      But if we are declaring any method which is not belongs to OBJECT class it will show error at compile time */
 
 
+
+
 }
