@@ -1,4 +1,4 @@
-package Method_chaining_using_Built_in_Function_interface;
+package All_Functional_Interfaces_in_java8.Method_chaining_using_Built_in_Function_interface;
 
 import java.util.function.Function;
 
@@ -18,7 +18,7 @@ public class andThenANDCompose {
             return c*c;
         };
 
-        /* NOTE-->  This andThen & compose are the built-in functions in Function interface,
+        /* NOTE-->  This andThen is abstract method & compose is a default method in  IFunction interface,
                     By using this we can be able to achieve the method chaining concept  */
 
         plus.andThen(multiply).apply(2);

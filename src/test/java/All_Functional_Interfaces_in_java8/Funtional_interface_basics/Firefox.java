@@ -1,4 +1,4 @@
-package Functional_Interface;
+package All_Functional_Interfaces_in_java8.Funtional_interface_basics;
 
 public class Firefox implements Browser{
     @Override
